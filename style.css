@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3f2e3e;
+  color: #efe1d1;
+}
+
+.welcome {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.options-tab {
+  display: flex;
+  width: 250px;
+
+  justify-content: space-around;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  padding: 0px 400px;
+  background-color: #e5e1da;
+}
+
+form {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+/* ----------------Register page-------------- */
+label {
+  color: #525b44;
+}
+
+/* ---------------------------------------------------Responsive design */
+@media (max-width: 393px) {
+  .main-section {
+    padding: 30px;
+    height: 550px;
+  }
+  .options-tab {
+    width: 60%;
+  }
+}
