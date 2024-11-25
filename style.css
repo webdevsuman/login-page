@@ -48,7 +48,7 @@ label {
 }
 
 /* ---------------------------------------------------Responsive design */
-@media (max-width: 393px) {
+@media screen and (max-width: 393px) {
   .main-section {
     padding: 30px;
     height: 550px;
