@@ -6,7 +6,7 @@
 
 body {
   background-color: #3f2e3e;
-  color: #efe1d1;
+  color: #efe1d163;
 }
 
 .welcome {
@@ -27,8 +27,9 @@ body {
   align-items: center;
   justify-content: space-around;
   height: 500px;
-  padding: 0px 400px;
+  padding: 50px 400px;
   background-color: #e5e1da;
+  border-radius: 20px;
 }
 
 form {
@@ -48,9 +49,10 @@ label {
 }
 
 /* ---------------------------------------------------Responsive design */
-@media screen and (max-width: 393px) {
+
+@media screen and (max-width: 1200px) {
   .main-section {
-    padding: 30px;
+    padding: 0px 30px;
     height: 550px;
   }
   .options-tab {
